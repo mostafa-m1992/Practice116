@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardItems"
+    android:layout_margin="12dp"
+    app:contentPadding="16dp"
+    android:checkable="true"
+    app:checkedIcon="@drawable/ic_baseline_check"
+    app:checkedIconTint="@color/purple_500"
+    app:checkedIconSize="20sp"
+    app:checkedIconMargin="5dp"
+    android:clickable="true"
+    app:rippleColor="@color/purple_500"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:strokeWidth="2dp"
+    app:strokeColor="@color/purple_700"
+    app:cardBackgroundColor="@color/teal_200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleCard"
+            android:text="please read this context!"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contextCard"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:text="please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! please read this context! "/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
